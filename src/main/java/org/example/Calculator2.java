@@ -22,9 +22,14 @@ public class Calculator2 {
 
         int termLength = input.nextInt();
 
-        int numDays = 365 * termLength;
+        double futureValue = deposit * ( Math.pow( 1 + ( interest_rate / 365 ), 365 * termLength ) );
 
-        double futureValue = deposit * ( Math.pow( 1 + ( interest_rate / 365 ), 365 * termLength));
+        double total_Interest = futureValue - deposit;
+
+        System.out.println();
+
+        System.out.println("Future Value: $" + futureValue);
+        System.out.println("Total Interest: $" + total_Interest);
 
     }
 }
