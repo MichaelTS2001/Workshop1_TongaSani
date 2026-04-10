@@ -21,9 +21,9 @@ public class Calculator3 {
 
         double MONTHLY_INTEREST_RATE = interestRate / 12 / 100;
 
-        int totalNumPayments = years * 12;
+        int totalNumPayments = years * - 12;
 
-        double presentValue = monthlyPayout * ( 1 - ( Math.pow( 1 + MONTHLY_INTEREST_RATE, - totalNumPayments))
+        double presentValue = monthlyPayout * ( ( 1 - ( Math.pow( 1 + MONTHLY_INTEREST_RATE, ( totalNumPayments ))))
                                 / MONTHLY_INTEREST_RATE);
 
         System.out.println();
