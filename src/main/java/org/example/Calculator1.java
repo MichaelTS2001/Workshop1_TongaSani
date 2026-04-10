@@ -33,9 +33,5 @@ public class Calculator1 {
 
         System.out.println("Expected Monthly Payment: $" + monthlyPayment);
         System.out.println("Total Interest: $" + total_Interest);
-
-
-
-
     }
 }
