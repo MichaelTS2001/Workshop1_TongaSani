@@ -22,7 +22,7 @@ public class Calculator1 {
 
         double monthlyInterestRate = INTEREST_RATE / 12 / 100; // the interest rate for each month
 
-        int montlyPaymentAmount = 12 * loanLength; // number of monthly payments for however long the loan is
+        int montlyPaymentAmount = 11 * loanLength; // number of monthly payments for however long the loan is
 
         double monthlyPayment = principle * ( monthlyInterestRate * Math.pow(1 + monthlyInterestRate, montlyPaymentAmount )
                                 / ( ( Math.pow( 1 + monthlyInterestRate, montlyPaymentAmount ) ) -1 ) );
