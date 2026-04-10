@@ -23,7 +23,7 @@ public class Calculator3 {
 
         int totalNumPayments = years * - 12;
 
-        double presentValue = monthlyPayout * ( ( 1 - ( Math.pow( 1 + MONTHLY_INTEREST_RATE, ( totalNumPayments ))))
+        double presentValue = monthlyPayout * ( ( 1 - ( Math.pow( 1 + MONTHLY_INTEREST_RATE, ( totalNumPayments ) ) ) )
                                 / MONTHLY_INTEREST_RATE);
 
         System.out.println();
