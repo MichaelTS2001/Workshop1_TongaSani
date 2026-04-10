@@ -24,7 +24,7 @@ public class Calculator2 {
 
         int numDays = 365 * termLength;
 
-        double futureValue = deposit * ( Math.pow( 1 + ( interest_rate / 365 ), 365 * termLength)));
+        double futureValue = deposit * ( Math.pow( 1 + ( interest_rate / 365 ), 365 * termLength));
 
     }
 }
